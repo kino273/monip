@@ -16,6 +16,7 @@ cp $file $tmp
 
 cd $dir
 
+rm -f $file.cpt
 ccencrypt -k key $file
 
 git add $file.cpt
