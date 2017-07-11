@@ -1,4 +1,7 @@
 #!/bin/sh
+
+# github273 osmc@rr
+
 x=$(readlink -f $0)
 dir=$(dirname $x)
 file=$dir/qqq
